@@ -3,16 +3,15 @@ package factorial;
 public class Factorial {
 
     static long factRec(int j){
-        if (j<0) return -1;
-        if (j==0) return 1;
-        return j*factRec(j-1);
+        if (j<1) return -1;
+        if (j==1) return 1;
+        else return j*factRec(j-1);
     }
 
     static long factIter(int j){
-        if (j<0) return -1;
-        if (j==0) return 1;
+        if (j<1) return -1;
         long result = 1;
-        for (int i = 1; i <= j ; i++) {
+        for (int i = j; i > 0 ; i--) {
             result*=i;
         }
         return result;
