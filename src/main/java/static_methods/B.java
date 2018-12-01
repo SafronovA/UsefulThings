@@ -5,8 +5,4 @@ public class B extends A {
         System.out.println("static method from B");
     }
 
-    @Override
-    public String toString() {
-        return "B{BBBBB";
-    }
 }

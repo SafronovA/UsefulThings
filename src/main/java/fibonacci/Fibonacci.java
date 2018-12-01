@@ -9,10 +9,10 @@ public class Fibonacci {
 
     static int[] fibIter(int i) {
         int[] res = new int[i];
-        if (i<1) return res;
-        res[0]=res[1] = 1;
-        for (int j=2; j<i; j++){
-            res[j] = res[j-1] + res[j-2];
+        if (i < 1) return res;
+        res[0] = res[1] = 1;
+        for (int j = 2; j < i; j++) {
+            res[j] = res[j - 1] + res[j - 2];
         }
         return res;
     }
