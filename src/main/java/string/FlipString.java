@@ -1,6 +1,6 @@
-package flip_string;
+package string;
 
-public class FlipStr {
+public class FlipString {
 
     static String flip(String str){
         String result = "";
@@ -13,6 +13,6 @@ public class FlipStr {
     }
 
     public static void main(String[] args) {
-        System.out.println(FlipStr.flip("qwerty"));
+        System.out.println(FlipString.flip("qwerty"));
     }
 }

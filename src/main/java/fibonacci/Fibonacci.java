@@ -9,7 +9,7 @@ public class Fibonacci {
 
     static int[] fibIter(int i) {
         int[] res = new int[i];
-        if (i < 1) return res;
+        if (i < 2) return res;
         res[0] = res[1] = 1;
         for (int j = 2; j < i; j++) {
             res[j] = res[j - 1] + res[j - 2];
@@ -18,12 +18,12 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        // fibRec
-        for (int i = 0; i < 10; i++) {
-            System.out.println(fibRec(i));
-        }
+//        // fibRec
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println(fibRec(i));
+//        }
         // fibIter
-        for (int i = 0; i < 10; i++) {
+        for (int i = -1; i < 10; i++) {
             System.out.println(fibIter(10)[i]);
         }
     }
