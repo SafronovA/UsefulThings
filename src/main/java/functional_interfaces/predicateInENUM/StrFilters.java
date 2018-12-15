@@ -1,4 +1,4 @@
-package FunctionalInterfPredicateInENUM;
+package functional_interfaces.predicateInENUM;
 
 import java.util.function.Predicate;
 

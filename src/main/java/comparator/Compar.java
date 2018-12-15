@@ -23,7 +23,6 @@ public class Compar {
 
         Comparator cPrice = (Comparator<Item>) (o1, o2) -> Integer.compare(o2.getPrice(), o1.getPrice());
 
-
         Collections.sort(list, cPrice);
         list.forEach(x -> System.out.println(x.getPrice() + " " + x.getName()));
     }

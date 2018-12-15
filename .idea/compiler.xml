@@ -9,5 +9,8 @@
         <module name="UsefulThings" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UsefulThings" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
