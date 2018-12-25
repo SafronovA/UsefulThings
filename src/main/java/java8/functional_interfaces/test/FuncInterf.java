@@ -1,4 +1,4 @@
-package functional_interfaces.test;
+package java8.functional_interfaces.test;
 
 import java.util.function.*;
 

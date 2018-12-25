@@ -1,10 +1,10 @@
-package comparator;
+package bo;
 
 public class Item {
     private int price;
     private String name;
 
-    public Item(int price, String name){
+    public Item(int price, String name) {
         this.price = price;
         this.name = name;
     }
@@ -16,4 +16,5 @@ public class Item {
     public String getName() {
         return name;
     }
+
 }
