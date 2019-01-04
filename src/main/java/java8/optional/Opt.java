@@ -28,4 +28,10 @@ public class Opt {
         ///
         return null;
     }
+
+    public static void main(String[] args) {
+        Optional<Integer> intOpt = Optional.of(5);
+        intOpt.map(d-> "Integer = " + d).orElse("");
+
+    }
 }
